@@ -1,4 +1,6 @@
 function compare_numbers(a, b){
+	a = Number(a);
+	b = Number(b);
 	if (a >= 0 && b >= 0 )
 		alert(b - a);
 	else if (a < 0 && b < 0 )
